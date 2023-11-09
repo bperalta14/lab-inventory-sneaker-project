@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+
+# Compiled files
+*.min.css
+*.min.js
+
+# Dependency directories
+bower_components/
+vendor/
+
+# User-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.log
+*.tmp
+
+# Environment variables
+.env

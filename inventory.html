@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inventory Management</title>
+    <link rel="stylesheet" type="text/css" href="inventory.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="navbar">
+        <img src="images/S__1_-removebg-preview.png" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="inventory.html">INVENTORY</a></li>
+          </ul>
+        </nav>
+        <img
+          src="images/Untitled_design__1_-removebg-preview.png"
+          class="menu-icon"
+        />
+      </div>
+      <div class="col">
+        <div class="row">
+          <h3>CHECK OUT OUR INVENTORY</h3>
+        </div>
+        <div class="scrolling-wrapper">
+          <div class="card card1">
+            <h5>Air Jordan 3 Retro 'Cardinal Red'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card2">
+            <h5>Air Jordan 3 Retro 'Desert Elephant'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card3">
+            <h5>Travis Scott x Air Jordan 1 Retro High OG 'Mocha'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card4">
+            <h5>Air Jordan 1 Retro High OG UNC Toe</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card1">
+            <h5>Air Jordan 3 Retro 'Cardinal Red'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card2">
+            <h5>Air Jordan 3 Retro 'Desert Elephant'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card3">
+            <h5>Travis Scott x Air Jordan 1 Retro High OG 'Mocha'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card4">
+            <h5>Air Jordan 1 Retro High OG UNC Toe</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+          <div class="card card1">
+            <h5>Air Jordan 3 Retro 'Cardinal Red'</h5>
+            <span>Price: $200</span>
+            <span>In Stock: 10</span>
+            <button class="remove-button">Remove</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <form id="resource-form">
+          <label for="sname">Sneaker Name</label>
+          <input
+            type="text"
+            id="sname"
+            name="sname"
+            placeholder="Sneaker Name.."
+          />
+
+          <label for="price">Price</label>
+          <input type="number" id="price" name="price" placeholder="$.." />
+
+          <label for="image">Image URL</label>
+          <input type="text" id="imageurl" name="imageurl" />
+
+          <label for="status">Status</label>
+          <select id="status" name="status">
+            <option value="instock">In Stock</option>
+            <option value="outofstock">Out of Stock</option>
+          </select>
+          <input type="submit" value="Submit" />
+          <button type="reset" id="reset-button">Reset</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
